@@ -44,11 +44,11 @@ export default function MyNavbar() {
             </div>
 
             <div>
+
+
+
+
                 {/* sec part start */}
-
-
-
-
                 <Navbar >
                     <Container fluid >
                         
