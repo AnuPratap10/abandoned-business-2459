@@ -40,7 +40,8 @@ export default function ThirdPart() {
 
 
                         </Box>
-                    
+                         
+                         <div></div>
 
 
                 </Container>
