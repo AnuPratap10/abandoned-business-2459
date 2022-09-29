@@ -54,3 +54,52 @@
 
 
 /* nav first part end */
+
+.thrd{
+  text-align: center;
+  margin: auto;
+
+
+}
+.thrd>h3{
+  font-weight: 600;
+  text-align: left;
+  color: rgb(0, 107, 255);
+  font-size: 1rem;
+  line-height: 1.2;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  z-index: 10;
+  text-align: center;
+  margin: auto;
+
+}
+.thrdtext{
+      font-size: 3.125rem;
+    line-height: 1.2;
+    text-align: center;
+    color: rgb(11, 53, 88);
+    font-weight: 700;
+    margin-bottom: 24px;
+    max-width: 770px;
+    z-index: 10;
+    text-align: center;
+    margin: auto;
+  
+}
+
+
+
+
+
+.gQOtoQ {
+    width: 100%;
+    line-height: 1.71429;
+    height: auto;
+    padding-bottom: 32px;
+    text-align: center;
+    margin: auto;
+    color: rgb(71, 103, 136);
+    font-size: 1.5rem;
+}
