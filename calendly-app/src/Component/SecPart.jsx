@@ -22,7 +22,8 @@ export default function SecPart() {
                         <p style={{ marginLeft:"23px", fontSize: "67px", color: "rgb(0, 107, 255)",
                          marginTop: "-30px", fontWeight: 900, marginBottom: "32px", lineHeight: 1.8,marginLeft:"-6px"}}>
                              scheduling</p>
-                        <p style={{ fontSize: "20px", color: "#476788",  marginTop: "-30px",marginLeft:"22px" }}
+                        <p style={{ fontSize: "20px", color: "#476788", 
+                         marginTop: "-30px",marginLeft:"22px" }}
                         >Calendly helps you book better meetings, faster, <br />
                             by syncing and integrating everything in one <br />
                             intuitive platform.</p>

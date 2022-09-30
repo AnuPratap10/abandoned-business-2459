@@ -6,7 +6,7 @@ import { NavLink } from 'react-bootstrap'
 export default function ThirdPart() {
 
     return (
-        <div>
+        <div style={{marginTop:"8%"}}>
             <div className="addition">
                
                     <div className="thrd">
@@ -21,10 +21,13 @@ export default function ThirdPart() {
 
                     <Container  style={{ display: "flex", marginTop: "4%", }}>
                     
-                        <Box >
-                            <h3>DATA-DRIVEN INSIGHTS</h3>
+                        <Box style={{marginTop:"8%"}} >
+                            <h3 style={{marginLeft:"-30px",
+                            fontSize: "60px", marginTop: "-20px", lineHeight: 1.2,
+                             fontWeight: 900, color: "rgb(11, 53, 88)",marginBottom: "32px",}}>DATA-DRIVEN INSIGHTS</h3>
                             <h1>Analytics</h1>
-                            <Text>Discover activity and trends — such as popular meeting <br />
+                            <Text style={{ fontSize: "20px", color: "#476788", 
+                         marginTop: "30px",marginLeft:"22px" }}>Discover activity and trends — such as popular meeting <br />
                                 days, top performers, in-demand meeting types, and <br /> more.</Text>
 
                             <NavLink to="/learn" style={{ color: "rgb(0, 107, 255)" }}>Learn more
@@ -35,7 +38,7 @@ export default function ThirdPart() {
 
                         <Box>
                             <Image src="https://images.ctfassets.net/k0lk9kiuza3o/3rLEehwNS0Kj9h1NOl1NFI/12e07302825a3dba741b417fcd7b45fa/Popular_days___users_with_most_events__6_.png?w=1471&h=1210&q=50&fm=webp"
-                                width="50%"
+                                width="70%"
                             />
 
 
