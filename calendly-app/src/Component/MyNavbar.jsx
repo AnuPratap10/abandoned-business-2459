@@ -1,13 +1,14 @@
 import { Select ,Image } from '@chakra-ui/react'
 import React from 'react'
-import Button from 'react-bootstrap/Button';
+import {Link} from "react-router-dom"
+import {Button} from '@chakra-ui/react';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Login from './Login';
 
 export default function MyNavbar() {
     return (
@@ -88,9 +89,11 @@ export default function MyNavbar() {
                                     </NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
-                           <Image src="https://cdn-icons-png.flaticon.com/128/1077/1077063.png"
-                            alt="" width="25px"/>
-                            <Button>Get started</Button>
+                           {/* <Image src="https://cdn-icons-png.flaticon.com/128/1077/1077063.png"
+                            alt="" width="25px"/> */}
+                          
+                              <Link to="/login">   <Button className="login_btn">Log In</Button></Link>
+                            <Button className='fifth'>Get started</Button>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
