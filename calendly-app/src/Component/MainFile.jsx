@@ -18,7 +18,7 @@ export default function MainFile() {
       <ThirdPart />
       <ForthPart />
       <FifthPart />
-      <FooterSec />
+   
     </div>
   )
 }

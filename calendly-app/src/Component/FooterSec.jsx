@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { Box, Container, Input, Text, Select, Stack, Image } from '@chakra-ui/react'
 
 export default function FooterSec() {
@@ -9,8 +10,24 @@ export default function FooterSec() {
                 margin: "auto", display: "flex", justifyContent: "space-around"
             }}>
                 <Box style={{ width: "25%" }}>
-                    <h1>Easy</h1>
-                    <h1>ahead</h1>
+                    <h1  style={{
+                        fontSize: "2.50875rem",
+                        lineHeight: "1.2",
+                        fontWeight: "600",
+                        color: "rgb(11, 53, 88)",
+                        marginBottom: "15px",
+                        marginRight: "5px",
+                      }}>Easy</h1>
+                    <h1
+                     style={{
+                        fontSize: "2.50875rem",
+                        lineHeight: "1.2",
+                        fontWeight: "600",
+                        color: "rgb(0, 107, 255)",
+                        marginBottom: "15px",
+                        marginRight: "5px",
+                      }}
+                    >ahead</h1>
                     <Text>We take the work out of connecting with others so you can accomplish more.</Text>
 
 
@@ -28,7 +45,16 @@ export default function FooterSec() {
 
                 </Box>
                 <Box style={{ width: "25%" }}>
-                    <h3>About</h3>
+                    <h3 
+                     style={{
+                        fontSize: "1.50875rem",
+                        lineHeight: "1.2",
+                        fontWeight: "600",
+                        color: "rgb(11, 53, 88)",
+                        marginBottom: "15px",
+                        marginRight: "5px",
+                      }}
+                    >About</h3>
                     <Text>About Calendly</Text>
                     <Text>Contact Sales</Text>
                     <Text>Newsroom</Text>
@@ -39,7 +65,14 @@ export default function FooterSec() {
 
                 </Box>
                 <Box style={{ width: "25%" }}>
-                    <h3>Solution</h3>
+                    <h3  style={{
+                        fontSize: "1.50875rem",
+                        lineHeight: "1.2",
+                        fontWeight: "600",
+                        color: "rgb(11, 53, 88)",
+                        marginBottom: "15px",
+                        marginRight: "5px",
+                      }}>Solution</h3>
                     <Text>Customer Sucecess</Text>
                     <Text>Sales</Text>
                     <Text>Recruiting</Text>
@@ -48,7 +81,14 @@ export default function FooterSec() {
                     <Text>Marketing</Text>
                 </Box>
                 <Box>
-                    <h3>Popular Features</h3>
+                    <h3  style={{
+                        fontSize: "1.50875rem",
+                        lineHeight: "1.2",
+                        fontWeight: "600",
+                        color: "rgb(11, 53, 88)",
+                        marginBottom: "15px",
+                        marginRight: "5px",
+                      }}>Popular Features</h3>
                     <Text>Embed Calendly</Text>
                     <Text>Availability</Text>
                     <Text>Sending Notifications</Text>
@@ -83,19 +123,42 @@ export default function FooterSec() {
 
 
                 <Box style={{ width: "25%" }}>
-                    <h3>Support</h3>
+                    <h3  
+                     style={{
+                        fontSize: "1.50875rem",
+                        lineHeight: "1.2",
+                        fontWeight: "600",
+                        color: "rgb(11, 53, 88)",
+                        marginBottom: "15px",
+                        marginRight: "5px",
+                      }}
+                    >Support</h3>
                     <Text>Help Center</Text>
                     <Text>Video Tutorials</Text>
                     <Text>Cookie Setting</Text>
                 </Box>
                 <Box style={{ width: "25%" }}>
-                    <h3>Add-Ons</h3>
+                    <h3  style={{
+                        fontSize: "1.50875rem",
+                        lineHeight: "1.2",
+                        fontWeight: "600",
+                        color: "rgb(11, 53, 88)",
+                        marginBottom: "15px",
+                        marginRight: "5px",
+                      }}>Add-Ons</h3>
                     <Text>Download for Chrome</Text>
                     <Text>Download for Firefox</Text>
 
                 </Box>
                 <Box >
-                    <h3>Devlopers</h3>
+                    <h3  style={{
+                        fontSize: "1.50875rem",
+                        lineHeight: "1.2",
+                        fontWeight: "600",
+                        color: "rgb(11, 53, 88)",
+                        marginBottom: "15px",
+                        marginRight: "5px",
+                      }}>Devlopers</h3>
                     <Text>Developer Tools</Text>
                     <br /><br /><br /><br /><br />
                     <p>Privacy/Terms and Conditions</p>

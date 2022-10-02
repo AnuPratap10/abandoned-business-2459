@@ -1,6 +1,6 @@
 import { Select ,Image } from '@chakra-ui/react'
 import React from 'react'
-import {Link} from "react-router-dom"
+import {Link,NavLink} from "react-router-dom"
 import {Button} from '@chakra-ui/react';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -10,13 +10,19 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './Login';
 
+
+
+
+
+
+
 export default function MyNavbar() {
     return (
         <>
             <div>
 
 
-                <Navbar bg="light" expand="lg">
+                <Navbar bg="light" expand="lg"   >
                     <Container fluid bg="light" expand="lg">
 
                         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -50,7 +56,7 @@ export default function MyNavbar() {
 
 
                 {/* sec part start */}
-                <Navbar >
+                <Navbar  >
                     <Container fluid >
                         
                         <Image src="https://cdn.mos.cms.futurecdn.net/W3yFiCjbmPia2u3qk9kKci-1200-80.jpg.webp" 
@@ -92,7 +98,8 @@ export default function MyNavbar() {
                            {/* <Image src="https://cdn-icons-png.flaticon.com/128/1077/1077063.png"
                             alt="" width="25px"/> */}
                           
-                              <Link to="/login">   <Button className="login_btn">Log In</Button></Link>
+                              {/* <Link to="/login">   </Link> */}
+                              <NavLink to="/login">Log In </NavLink>
                             <Button className='fifth'>Get started</Button>
                         </Navbar.Collapse>
                     </Container>
