@@ -103,8 +103,8 @@ export default function FooterSec() {
                     <Image src="https://logowik.com/content/uploads/images/download-on-the-app-store4659.jpg"
                         width="130px"
                     />
-                    <Image src="https://assets.stickpng.com/thumbs/5a902dbf7f96951c82922875.png"
-                        width="130px"
+                    <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/270px-Google_Play_Store_badge_EN.svg.png?20220907104002"
+                        width="100px"
                     />
                     <Box style={{ gap: "20", display: "flex", justifyContent: "space-evenly" }}>
                         <Image src="https://cdn-icons-png.flaticon.com/128/3128/3128212.png" width="20px" />

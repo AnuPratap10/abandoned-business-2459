@@ -10,13 +10,18 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './Login';
 
-
+import {useNavigate} from "react-router-dom"
 
 
 
 
 
 export default function MyNavbar() {
+    const nav=useNavigate()
+    const handleclick=()=>{
+nav("/login")
+
+    }
     return (
         <>
             <div>
@@ -100,7 +105,7 @@ export default function MyNavbar() {
                           
                               {/* <Link to="/login">   </Link> */}
                               <NavLink to="/login">Log In </NavLink>
-                            <Button className='fifth'>Get started</Button>
+                            <Button onClick={handleclick} className='fifth'>Get started</Button>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

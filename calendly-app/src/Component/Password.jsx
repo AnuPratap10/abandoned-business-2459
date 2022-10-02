@@ -22,6 +22,7 @@ const Password = () => {
 const handleClick=()=>{
 
   nav("/")
+  alert("User Login Sucessfully")
   
 }
 
@@ -31,7 +32,7 @@ const handleClick=()=>{
     <VStack w="100%" p="30px">
       <VStack w="50%" h="400px" p="40px">
         <Image src={calendly} h="40px" />
-        <Text>Welcome back, rajinderyadu77@gmail.com!</Text>
+        <Text>Welcome back, anu@gmail.com!</Text>
         <a href="#">(This is Not me)</a>
         <FormControl w="85%" h="100%" className="shaddow" p="30px" rounded="md">
           <FormLabel pb="5px">Enter your password.</FormLabel>
